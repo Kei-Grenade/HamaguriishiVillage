@@ -1,10 +1,14 @@
-/* body{
-    background-color: black;
-    color: white;
-} */
+.shippori-mincho-b1-regular {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: sans-serif;
+}
 
 .visial{
-    /* padding: 20px 0 100px; */
     background-color: #000000;
     color: #fff;
     overflow: hidden;
@@ -16,6 +20,7 @@
     flex-direction: column;
 }
 .zarigani{
+    display: flex;
     position: relative;
     justify-content: center;
     flex-direction: column;
@@ -35,14 +40,6 @@
     align-items: normal;
 
 }
-/* *, ::before, ::after {
-    background-repeat: no-repeat;
-    box-sizing: inherit;
-} */
-/* div {
-    display: block;
-    unicode-bidi: isolate;
-} */
 .menu_front{
     position: relative;
     margin-top: 50px;
@@ -51,11 +48,6 @@
 .menu_info{
     position: relative;
     display: flex;
-    /* flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: normal;
-    justify-content: center;
-    align-items: normal; */
     justify-content: center;
     margin: 50px 0 20px 0;
 }
@@ -68,15 +60,10 @@ p {
     letter-spacing: 0.05rem;
 }
 h3{
+    font-family: "Shippori Mincho B1", serif;
     font-size: 38px;
     font-weight: 100;
 }
-/* img{
-    height: 380px;
-    left: 30%;
-    top: 0;
-    margin-bottom: 20px;
-} */
 img {
     border-style: none;
 }
@@ -86,4 +73,93 @@ img {
     min-width: 0;
     padding: 0;
     margin: 0;
+}
+
+/* フッター */
+ul, ol {
+    list-style: none;
+}
+.site-menu ul {
+    display: flex;
+}
+
+.site-menu ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.site-menu ul li {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #24211b;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: block;
+    width: 235px;
+    margin-top: 90px;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+
+@media (max-width: 800px) {
+    
+    /* .flex {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .menu_info{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0 20px 0;
+    }
+    .menu_name {
+        writing-mode: vertical-rl;
+        padding: 16px;
+        max-width: 200px;
+    }
+    .food img {
+        width: 100%;
+        height: auto;
+    }
+    .food p {
+        font-size: 14px;
+        text-align: justify;
+        max-width: 300px;
+        margin: auto;
+    }
+    h3{
+        font-family: "Shippori Mincho B1", serif;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    .site-menu ul {
+        display: block;
+        text-align: center;
+    }
+    .site-menu li {
+        margin-top: 20px;
+    }
+    .footer-logo {
+        margin-top: 60px;
+    }
+    .copyright {
+        margin-top: 50px;
+    }
 }
