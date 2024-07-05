@@ -55,9 +55,12 @@ nav.floating {
     font-size: 25px;
     text-align: center;
 }
+.bar1 {
+    padding: 0 9%;
+}
 /*避暑地,中山道始まり*/
 .resp-container {
-    width: 800px; margin: auto;
+    width: 1000px; margin: auto;
 }
 .box {
     display: flex;
@@ -66,20 +69,25 @@ nav.floating {
     font-family: 'Montserrat', serif;
     line-height: 35px;
     font-size: 15pt;
-    /*letter-spacing: 1px;*/
+    letter-spacing: 1px;
     text-align: left;
     padding-left: 25px;
 }
+
 .text-2 {
     font-family: 'Montserrat', serif;
     line-height: 35px;
     font-size: 15pt;
-    /*letter-spacing: 1px;*/
+    letter-spacing: 1px;
     text-align: left;
     padding-right: 25px;
 }
-.img-size {
-    width: 600px;
+.img-size1 {
+    width: 800px;
+    height: 90%;
+}
+.img-size2 {
+    width: 1000px
 }
 /*避暑地，中山道終わり*/
 
@@ -105,7 +113,7 @@ body {
     font-size: 16pt;
     color: #000000;
     line-height: 1;
-    background-color: #ffffff;
+    background-color: #f0fff0;
 }
 
 img {
