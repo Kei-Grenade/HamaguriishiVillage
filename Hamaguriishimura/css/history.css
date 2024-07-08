@@ -12,6 +12,10 @@
     text-shadow: 1px 1px 10px #4b2c14;
 }
 
+body {
+    background-color: #f9e2c4;
+}
+
 .title2 {
     height: 150px;
     background-repeat: no-repeat;
@@ -83,4 +87,5 @@
 
 .footer {
     margin-top: 100px;
+    background-color: #e6ba81;
 }
