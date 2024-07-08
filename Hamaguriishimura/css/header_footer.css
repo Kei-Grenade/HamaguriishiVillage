@@ -19,16 +19,20 @@
 }
 .site-menu ul {
     display: flex;
+    list-style: none;
 }
 .site-menu ul li {
     margin-left: 20px;
     margin-right: 20px;
+    list-style: none;
 }
 .site-menu ul li {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    list-style: none;
 }
+
 /* フッター */
 .footer {
     color: #ffffff;
@@ -55,9 +59,11 @@
     .site-menu ul {
         display: block;
         text-align: center;
+        list-style: none;
     }
     .site-menu li {
         margin-top: 20px;
+        list-style: none;
     }
     /* ヘッダー */
     .header {
