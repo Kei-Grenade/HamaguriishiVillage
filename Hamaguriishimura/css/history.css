@@ -27,9 +27,18 @@ body {
 }
 
 .title h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Shippori Mincho B1", serif;
     font-size: 32pt;
     font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f3d8b3;
+    text-shadow: 1px 1px 10px #4d3625;
 }
 
 .title p {
