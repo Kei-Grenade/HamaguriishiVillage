@@ -1,6 +1,6 @@
 .title1 {
     height: 310px;
-    background-image: url(../images/index/Supernature.png);
+    background-image: url(../images/historymap.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -10,6 +10,10 @@
     align-items: center;
     color: #ffffff;
     text-shadow: 1px 1px 10px #4b2c14;
+}
+
+body {
+    background-color: #f9e2c4;
 }
 
 .title2 {
@@ -83,4 +87,5 @@
 
 .footer {
     margin-top: 100px;
+    background-color: #e6ba81;
 }
