@@ -6,7 +6,6 @@
     font-style: normal;
 }
 body{
-    /* font-family: sans-serif; */
     background-color: #fdf5e6;
 }
 .visial{
@@ -81,11 +80,11 @@ img {
 
 /* ヘッダー */
 .header {
-    font-size: 21.3px; /* 例として18pxに設定 */
+    font-size: 21.3px;
 }
 /* フッター */
 .footer {
-    font-size: 21.3px; /* 例として16pxに設定 */
+    font-size: 21.3px;
 }
 
 @media (max-width: 800px) {
