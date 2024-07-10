@@ -1,14 +1,14 @@
+@charset "utf-8";
+
 .shippori-mincho-b1-regular {
     font-family: "Shippori Mincho B1", serif;
     font-weight: 400;
     font-style: normal;
 }
-
 body{
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     background-color: #fdf5e6;
 }
-
 .visial{
     background-color: #000000;
     color: #fff;
@@ -77,6 +77,15 @@ img {
 
 .logo-img img{
     width: 170px;
+}
+
+/* ヘッダー */
+.header {
+    font-size: 21.3px; /* 例として18pxに設定 */
+}
+/* フッター */
+.footer {
+    font-size: 21.3px; /* 例として16pxに設定 */
 }
 
 @media (max-width: 800px) {
