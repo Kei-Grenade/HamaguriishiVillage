@@ -67,6 +67,7 @@ nav.floating {
     display: flex;
 }
 .text-1 {
+    margin-top: 30px;
     font-family: 'Montserrat', serif;
     line-height: 35px;
     font-size: 15pt;
@@ -76,6 +77,7 @@ nav.floating {
 }
 
 .text-2 {
+    margin-top: 30px;
     font-family: 'Montserrat', serif;
     line-height: 35px;
     font-size: 15pt;
@@ -257,6 +259,9 @@ img {
         border: none;
         border-radius: 0;
         outline: none;
+    }
+    .lead{
+        margin: 30px 20px;
     }
     /*避暑地，中山道始まり*/
     .resp-container {

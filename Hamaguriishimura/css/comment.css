@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
 
 nav.floating {
     position: absolute;
@@ -30,21 +32,54 @@ nav.floating {
     text-shadow: 1px 1px 10px #4b2c14;
 }
 
-.first-view-text h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 100px;
-    text-align: center;
-}
-
 .first-view-text p {
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 70px;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Kiwi Maru", serif;
+    -webkit-text-stroke: 2px black;
 }
 
-.lead {
-    max-width: 1200px;
-    margin: 60px auto;
+.flex {
+    display: flex; /*横並び*/
+    margin:0 auto;
+    justify-content: center;
+}
+.flex .image {
+    width: 30%; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.flex .text {
+    margin: 10% 0 0 10%;
+    padding: 0;
+    font-family: serif;
+}
+.text-first{
+    font-size: 30px
+}
+.text-middle{
+    margin: 15px 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.text-end{
+    font-size: 25px;
+}
+.hr1{
+    border-top: 5px dotted #000; 
+}
+.greeting .title{
+    font-family: "Kiwi Maru", serif;
+    text-align: center;
+    font-size: 200%;
+}
+.greeting .text{
+    margin: 0 10%;
+    line-height: 150%;
 }
 
 *,
@@ -69,7 +104,7 @@ body {
     font-size: 16pt;
     color: #000000;
     line-height: 1;
-    background-color: #ffffff;
+    background-color: #f0fff0;
 }
 
 img {
@@ -110,14 +145,6 @@ img {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.sontyo{
-    display: flex;
-    width: 30%;
-    height: 30%;
-    margin:0 auto;
-    justify-content: center;
 }
 
 .footer {
@@ -194,6 +221,26 @@ img {
         width: 100px;
     }
 
+    .first-view-text p{
+        font-size: 40px;
+        margin-right: 30px;
+    }
+    .flex .text{
+        margin-top: 5%;
+    }
+    .text-first{
+        font-size: 15px;
+    }
+    .text-middle{
+        font-size: 20px;
+    }
+    .text-end{
+        font-size: 10px;
+    }
+    .greeting{
+        font-size: 70%;
+    }
+
     .main {
         padding-top: 50px;
     }
@@ -210,7 +257,7 @@ img {
         display: block;
         width: 44px;
         height: 34px;
-        background-image: url(../images/common/icon-menu.png);
+        background-image: url(../images/index/icon-menu.png);
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
