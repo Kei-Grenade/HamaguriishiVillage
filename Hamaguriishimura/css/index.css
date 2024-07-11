@@ -198,7 +198,7 @@ img {
         top: 0;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: #fdf5e6;
         height: 50px;
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -213,6 +213,9 @@ img {
 
     .header-logo {
         width: 100px;
+    }
+    .header-logo img{
+        width: 95px;
     }
 
     .header-site-menu {
