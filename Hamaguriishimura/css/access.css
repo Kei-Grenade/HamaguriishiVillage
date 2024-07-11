@@ -55,3 +55,9 @@ hr{
 .footer {
     font-size: 21.3px; /* 例として16pxに設定 */
 }
+
+@media (max-width: 800px) {
+    .background{
+        padding-top: 50px;
+    }
+}
