@@ -81,6 +81,10 @@ nav.floating {
     margin: 0 10%;
     line-height: 150%;
 }
+.greeting .name{
+    text-align: right;
+    margin-right: 5%;
+}
 
 *,
 ::before,
