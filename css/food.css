@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.shippori-mincho-b1-regular {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #fdf5e6;
+}
+.visial{
+    background-color: #000000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.goheimochi{
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+.zarigani{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+.hebi{
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: normal;
+}
+.menu_front{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu_info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 20px 0;
+}
+.menu_name{
+    writing-mode: vertical-rl;
+    padding: 32px;
+}
+p {
+    line-height: 1.8rem;
+    letter-spacing: 0.05rem;
+}
+h3{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 38px;
+    font-weight: 100;
+}
+img {
+    border-style: none;
+}
+
+*{
+    min-height: 0;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-img img{
+    width: 170px;
+}
+
+/* ヘッダー */
+.header {
+    font-size: 21.3px;
+}
+/* フッター */
+.footer {
+    font-size: 21.3px;
+}
+
+@media (max-width: 800px) {
+    .menu_info{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0 20px 0;
+    }
+    .menu_name {
+        writing-mode: vertical-rl;
+        padding: 16px;
+        max-width: 200px;
+    }
+    .food img {
+        width: 100%;
+        height: auto;
+    }
+    .food p {
+        font-size: 14px;
+        text-align: justify;
+        max-width: 300px;
+        margin: auto;
+    }
+    h3{
+        font-family: "Shippori Mincho B1", serif;
+        font-size: 22px;
+        font-weight: 100;
+    }
+}

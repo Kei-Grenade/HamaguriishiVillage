@@ -1,0 +1,117 @@
+.title1 {
+    height: 310px;
+    background-image: url(../images/historymap.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+body {
+    background-color: #f9e2c4;
+}
+
+.title2 {
+    font-family: "Shippori Mincho B1", serif;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffede0;
+    text-shadow: 1px 1px 10px #984200;
+}
+
+.title h1 {
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 32pt;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5dac4;
+    text-shadow: 1px 1px 10px #cf8954;
+}
+
+.title p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.feature-text {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .feature-text {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.feature-text h2 {
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.feature-text h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.feature-text p {
+    font-family: "Zen Maru Gothic", serif;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #e6ba81;
+}
+
+.shippori-mincho-b1-regular {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.site-menu ul li {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
